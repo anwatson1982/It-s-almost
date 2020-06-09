@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <div class="headimage">
+        <img src="./images/pencil.png" height="60px" width="60px" />
+      </div>
+    </header>
+    <div class="wrapper">
+      <article>
+        <div class="main">
+          <div class="text">
+            <span
+              ><input
+                type="text"
+                id="almost"
+                required
+                placeholder="It's Almost"
+                pattern="[a-zA-Z ]{1,}"
+              /><br /><span class="validate">This is required </span>
+          </div>
+          <div class="dateandtime">
+            <span class="positionleft"><h2>On</h2></span>
+            <div class="date"><input type="date" /></div>
+            <span class="positioncentre"><h2>at</h2></span>
+            <div class="time"><input type="time" />
+              <div class="ampmswitch">
+                <input type="checkbox" name="ampmswitch" class="ampmswitch-checkbox" id="myampmswitch" checked>
+                <label class="ampmswitch-label" for="myampmswitch">
+                    <span class="ampmswitch-inner"></span>
+                    
+                </label>
+            </div>
+            </div>
+          </div>
+          <div class="countdown">
+            <button>Create Free Countdown</button>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <footer>
+      <div class="footerimages">
+        <img
+          src="./images/facebook_footer.png"
+          alt="Facebook"
+          height="30px"
+          width="30px"
+        /><img
+          src="./images/twitter_footer.png"
+          alt="twitter"
+          height="30px"
+          width="30px"
+        />
+      </div>
+    </footer>
+  </body>
+</html>

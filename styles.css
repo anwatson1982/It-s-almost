@@ -1,0 +1,294 @@
+.main {
+  height: 350px;
+  width: 980px;
+  padding-right: 60px;
+  
+}
+.wrapper {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 980px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+header {
+  height: 200px;
+  width: 100px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #f7f7f7;
+  height: 80px;
+}
+
+.footerimages {
+  position: relative;
+  left: 50px;
+  top: 20px;
+}
+
+.footerimages img {
+  padding: 5px;
+}
+
+.headimage {
+  position: absolute;
+  left: 50px;
+  top: 50px;
+}
+
+#almost:required {
+  border-color: darkorange;
+}
+
+#almost:valid {
+border-color: #D6D6D6;
+}
+
+input:focus {
+  border-color: rgb(70, 140, 231);
+  border-radius: 10px 10px 10px 10px;
+  outline-style: solid;
+  border: 1px;
+}
+
+.text {
+  position: relative;
+  overflow: hidden;
+  padding: 0 0 0 80px;
+  width: 100%;
+
+}
+
+.text input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 5px 15px;
+  height: 90px;
+  font-size: 40px;
+  text-align: center;
+  color: #AFB8B9;
+  border: 1px;
+  border-style: solid;
+  border-color: #D6D6D6;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: inset 0px 0px 5px 0px rgb(209, 208, 208)
+  
+}
+
+
+@media only screen and (max-width: 1024px) {
+  label {
+    display: block;
+  }
+  .text {
+    clear: both;
+    padding: 0;
+  
+  }
+  .date{
+    clear: both;
+    padding: 0;
+  }
+  .time{
+    clear: both;
+    padding: 0;
+  }
+}
+
+.validate {
+  font-family: serif, Georgia, "Times New Roman", Times;
+  color: #FFB63E;
+  font-size: 15px;
+}
+
+input:invalid + .validate {
+  visibility: visible;
+}
+
+input:valid + .validate {
+  visibility: hidden;
+}
+
+input:valid {
+  border-bottom: transparent;
+}
+.dateandtime {
+  
+  position: relative;
+  top: -40px;
+  width: 100%;
+}
+
+.positionleft {
+  position: relative;
+  margin-right: 10px;
+  width: 30px;
+  top: 30px;
+}
+
+.positionleft h2 {
+  font-family: serif, Georgia, "Times New Roman", Times,;
+  font-weight: lighter;
+  color: #AFB8B9;
+  font-size: 40px;
+}
+
+.date {
+  position: relative;
+  left: 80px;
+  top: -80px;
+}
+
+.date input {
+  box-sizing: border-box;
+  height: 80px;
+  width: 420px;
+  text-align: center;
+  font-size: 30px;
+  color:darkgray;
+  border: 1px;
+  border-style: solid;
+  border-color: #D6D6D6;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: inset 0px 0px 5px 0px rgb(209, 208, 208)
+}
+
+.positioncentre {
+  position: relative;
+  left: 275px;
+  top: -90px;
+
+}
+.positioncentre h2 {
+  font-family: serif, Georgia, "Times New Roman", Times,;
+  font-weight: lighter;
+  color: #AFB8B9;
+  position: absolute;
+  font-size: 40px;
+}
+
+.time input {
+  box-sizing: border-box;
+  height: 80px;
+  width: 420px;
+  text-align: center;
+  color: darkgray;
+  font-size: 30px;
+  border: 1px;
+  border-style: solid;
+  border-color: #D6D6D6;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: inset 0px 0px 5px 0px rgb(209, 208, 208);
+}
+.time input time {
+  color: darkgray;
+}
+
+.time {
+  position: relative;
+  left: 640px;
+  top: -160px;
+  
+}
+
+.countdown {
+  position: relative;
+  top: -170px;
+  left: 390px;
+}
+.countdown button {
+  border: 1px;
+  border-style: solid;
+  border-color: #D6D6D6;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 0px 0px 5px 0px rgb(209, 208, 208);
+  height: 80px;
+  width: 350px;
+  font-family: serif, Georgia, "Times New Roman", Times,;
+  font-size: 20px;
+  font-weight: bolder;
+  color:#AFB8B9;
+  background-color: #F9F9F9;
+}
+
+button:hover{
+  box-shadow: 0px 0px 20px 0px rgb(209, 208, 208);
+}
+
+#pm{
+  position: absolute;
+  top: 0px;
+  left: 300px;
+}
+
+#am{
+  position: absolute;
+  top: 0px;
+  left: 300px;
+}
+#ampm button {
+  border: 1px;
+  border-style: solid;
+  border-color: #D6D6D6;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 0px 0px 5px 0px rgb(209, 208, 208);
+  height: 80px;
+  width: 120px;
+  font-family: serif, Georgia, "Times New Roman", Times,;
+  font-size: 20px;
+  font-weight: bolder;
+  color:#AFB8B9;
+  background-color: #F9F9F9;
+}
+.ampmswitch {
+  position: absolute;
+  top: 0px;
+  left: 300px;
+  width: 120px; 
+
+  -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.ampmswitch-checkbox {
+  display: none;
+}
+.ampmswitch-label {
+  display: block; overflow: hidden; cursor: pointer;
+  border: 1px solid #999999; border-radius: 10px;
+}
+.ampmswitch-inner {
+  display: block; width: 200%; margin-left: -100%;
+  transition: margin 0.3s ease-in 0s;
+}
+.ampmswitch-inner:before, .ampmswitch-inner:after {
+  display: block; float: left; width: 50%; height: 80px; padding: 0; line-height: 30px;
+  font-size: 20px; color: white; font-family: serif, Georgia, Times New Roman, Times, ; font-weight: bold;
+  box-sizing: border-box;
+ border: 1px;
+
+}
+.ampmswitch-inner:before {
+  content: "AM";
+  background-color: #F9F9F9; color: #AFB8B9;
+text-align: center;
+padding-top:20px;
+}
+.ampmswitch-inner:after {
+  content: "PM";
+  background-color: #F9F9F9; color: #AFB8B9;
+  text-align: center;
+padding-top:20px;
+}
+
+.ampmswitch-checkbox:checked + .ampmswitch-label .ampmswitch-inner {
+  margin-left: 0;
+}
+.ampmswitch-checkbox:checked + .ampmswitch-label .ampmswitch-switch {
+  right: 0px; 
+}
+
+
