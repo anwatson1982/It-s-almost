@@ -49,11 +49,11 @@ footer {
 border-color: #D6D6D6;
 }
 
-input:focus {
+#almost:focus {
   border-color: rgb(70, 140, 231);
-  border-radius: 10px 10px 10px 10px;
-  outline-style: solid;
-  border: 1px;
+  outline: none;
+  box-shadow: blue;
+  
 }
 
 .text {
@@ -106,16 +106,16 @@ input:focus {
   font-size: 15px;
 }
 
-input:invalid + .validate {
+.validate:invalid + #almost {
   visibility: visible;
 }
 
-input:valid + .validate {
+.validate:valid + #almost {
   visibility: hidden;
 }
 
-input:valid {
-  border-bottom: transparent;
+#almost:valid + .validate {
+  visibility: hidden;
 }
 .dateandtime {
   
